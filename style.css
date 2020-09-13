@@ -1,0 +1,372 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+.back {
+position:fixed;
+width: 1275px;
+z-index:1;
+background-color:rgba(240, 231, 231, 0.466);
+text-align:center;
+height:30px;
+font-size:25px;
+}
+.set1{
+position:absolute;
+margin:0px 0px 0px 900px; 
+
+}
+.set2{
+position:absolute;
+margin:0px 0px 0px 1050px;
+}
+.set3{
+margin:0px 0px 0px 1150px;
+}
+.clothing:hover{
+background-color:rgb(247, 239, 239);
+} 
+.electronics:hover{
+background-color:rgb(247, 239, 239);
+} 
+.books:hover{
+background-color: rgb(247, 239, 239);
+} 
+.fas:hover{
+font-size:50px;
+color:red;
+}
+.far:hover{
+font-size:50px;
+color:red;
+}
+nav{
+height:50px;
+position:fixed;
+top:30px;
+background-color: azure;
+width:1275px;
+z-index:1;
+}
+nav ul li{
+list-style-type:none;
+width:150px;
+float:left;
+text-align:center;
+margin-top: auto;
+}
+li a{
+text-decoration:none;
+color:black;
+line-height: 50px;
+display:block;
+}
+.size{
+width:100px;
+height:50px;
+}
+.footer{
+background-color:rgb(49, 47, 47);
+position: relative;
+top:10px;
+}
+nav1{
+display:flex;
+height:300px;
+width:1250px;
+
+}
+nav1 ul li{
+list-style-type: none;
+height:70px;
+float:inline-end;
+
+}
+li a{
+text-decoration:none;
+display: block;
+}
+nav2{
+display:flex;
+height:90px;
+width:1250px;
+position: absolute;
+margin-top: 690px;
+padding-left:130px;
+
+}
+nav2 ul li{
+list-style-type: none;
+height:70px;
+float:left;
+width:300px;
+}
+li a{
+text-decoration:none;
+display: block;
+}
+.fab:hover{
+font-size:50px;
+color:red;
+}
+.navp{
+display:grid;
+grid-template-columns:50% 50%;
+grid-column-gap:650px;
+color:azure;
+
+}
+
+.align{
+grid-template-columns: 100px 100px;
+}
+.stl{
+border-color:greenyellow;
+border-width:10px;
+
+}
+.fit{
+position:absolute;
+top:80px;
+max-width:100%;
+width:1275px;
+height:600px;
+text-align:center;
+background-image: url("morning-brew-7FvRXPYH0Yw-unsplash.jpg");
+background-size:100% 100%;                     
+background-repeat:   no-repeat;
+animation-name:change;
+animation-duration:10s;
+animation-iteration-count: infinite;
+}
+@keyframes change{
+0%{
+background-image: url("morning-brew-7FvRXPYH0Yw-unsplash.jpg");
+}
+50%{
+background-image: url("mnz-ToLMORRb97Q-unsplash.jpg");
+}
+100%{
+background-image: url("janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+}
+}
+.dvd{
+position: relative;
+top:800px;
+display:grid;
+grid-template-rows:max-content;
+grid-row-gap:10px;
+}
+#Electronics{
+display:grid;
+grid-template-rows: auto;
+grid-row-gap:10px;
+}
+#Clothing{
+display:grid;
+grid-template-rows:auto;
+grid-row-gap:10px;
+}
+#Books{
+display:grid;
+grid-template-rows:auto;
+grid-row-gap:10px;
+}
+#Mobile{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Tv{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Accessories{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Men{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Women{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Children{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Ebooks{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Audiobooks{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+#Paperbooks{
+display:grid;
+grid-template-columns: 40% 60%;
+}
+.photo2{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+.photo3{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+.photo4{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+
+
+.photo5{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+
+
+.photo6{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+
+
+.photo7{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+
+
+.photo8{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+
+
+.photo9{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+
+}
+.photo10{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+width:300px;
+height:400px; 
+grid-column-gap: 150px;; 
+margin-left: 20px;
+margin-top:30px;
+}
+h6{
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size:30px;
+color:red;
+margin-top:10px;
+
+}
+p1{
+font-family: "Karla", sans-serif
+}
+h3{
+font-size:25px;
+text-align:center;
+}
+h4{
+font-size:25px;
+text-align:center;
+}
+h5{
+font-size:25px;
+text-align:center;
+}
+.books{
+background-color: transparent;
+border-color: transparent;
+}
+.electronics{
+background-color: transparent;
+border-color: transparent;
+}
+.clothing{
+background-color: transparent;
+border-color: transparent;
+}
+.setn{
+margin-left:30px;
+}
+.imag{
+width:250px;
+height:250px;
+object-fit:cover;
+text-align:center;
+}
+.imag1{
+width:225px;
+height:250px;
+object-fit:cover;
+text-align:center;
+}
+p1{
+text-align:center;
+font-size:20px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.divco{
+margin-top:80px;
+}
+.join{
+font-size:25px;
+}
+.size1{
+width:100px;
+height:70px;
+}
+.about{
+position: relative;
+margin-top:660px;
+background-color: rgb(236, 220, 220);
+}

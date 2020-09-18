@@ -120,7 +120,7 @@ top:80px;
 width:1275px;
 height:600px;
 text-align:center;
-background-image: url("morning-brew-7FvRXPYH0Yw-unsplash.jpg");
+background-image: url("images/morning-brew-7FvRXPYH0Yw-unsplash.jpg");
 background-size:100% 100%;    
 max-width:100%;                 
 background-repeat:   no-repeat;
@@ -130,13 +130,13 @@ animation-iteration-count: infinite;
 }
 @keyframes change{
 0%{
-background-image: url("morning-brew-7FvRXPYH0Yw-unsplash.jpg");
+background-image: url("images/morning-brew-7FvRXPYH0Yw-unsplash.jpg");
 }
 50%{
-background-image: url("mnz-ToLMORRb97Q-unsplash.jpg");
+background-image: url("images/mnz-ToLMORRb97Q-unsplash.jpg");
 }
 100%{
-background-image: url("janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+background-image: url("images/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
 }
 }
 .dvd{
